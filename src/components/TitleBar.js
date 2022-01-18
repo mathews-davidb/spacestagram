@@ -5,7 +5,19 @@ import "./Components.css";
 const TitleBar = (props) => {
   return (
     <div className="titlebar">
-      <div></div>
+      <div>
+        <a href="https://github.com/mathews-davidb/spacestagram.git">
+          <img
+            src="https://miro.medium.com/max/1125/0*sY_XTIBzlfd2zskq.png"
+            style={{
+              width: "200px",
+              height: "auto",
+              marginLeft: "-230px",
+              marginTop: "5px",
+            }}
+          ></img>
+        </a>
+      </div>
       <div style={{ textAlign: "center" }}>
         <h1
           style={{
@@ -30,7 +42,7 @@ const TitleBar = (props) => {
       <div
         style={{
           textAlign: "right",
-          marginRight: "20px",
+          marginRight: "40px",
           marginTop: "-20px",
           fontFamily: "Mukta",
         }}
