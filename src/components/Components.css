@@ -1,3 +1,5 @@
+/* ---------  Loading.js --------------- */
+
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mukta:wght@200&display=swap");
 
 .loader {
@@ -21,11 +23,15 @@
   }
 }
 
+/* ---------  TitleBar.js --------------- */
+
 .titlebar {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   margin-bottom: 2em;
 }
+
+/* ---------  ImageDisplay.js --------------- */
 
 .image-grid {
   display: flex;
@@ -72,25 +78,9 @@
   opacity: 1;
 }
 
-.App {
-  background-color: white;
-  margin-top: 0;
-  text-align: center;
-}
-
 .card-header {
   display: grid;
   grid-template-columns: 70% 30%;
-}
-
-.show-more-button {
-  font-size: 2em;
-  margin-bottom: 20px;
-  border: 1px black solid;
-  border-radius: 5px;
-  color: white;
-  background-color: black;
-  padding: 10px;
 }
 
 .favorite {
@@ -107,4 +97,23 @@
 
 .share {
   color: white;
+}
+
+/* ---------  App.js --------------- */
+
+.App {
+  background-color: white;
+  margin-top: 0;
+  text-align: center;
+}
+
+.show-more-button {
+  font-size: 2em;
+  font-family: "Bebas Neue";
+  margin-bottom: 20px;
+  border: 1px black solid;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  padding: 10px;
 }
